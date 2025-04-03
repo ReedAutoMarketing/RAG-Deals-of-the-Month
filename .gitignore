@@ -1,3 +1,7 @@
-index.html
-script.js
+src/index.html
+src/script.js
 old-script.js
+tailwind.config.js
+src/input.css
+node_modules
+.gitignore

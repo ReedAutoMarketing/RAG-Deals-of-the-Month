@@ -290,71 +290,6 @@ body#rag-auto {
             padding: 0;
         }
 
-        #rag-auto .rag-heading {
-            font-size: 1.875rem;
-            line-height: 2.25rem;
-            font-weight: 700;
-            letter-spacing: -0.025em;
-            padding: 1.25rem;
-            padding-top: 0.5rem;
-            padding-bottom: 0.5rem;
-            text-align: center;
-            color: white;
-        }
-
-        #rag-auto .rag-subtitle {
-            text-align: center;
-            padding-bottom: 0.5rem;
-            margin-bottom: 1.25rem;
-            font-size: 1.125rem;
-            line-height: 1.75rem;
-            color: white;
-        }
-
-        #rag-auto .rag-container {
-            display: grid;
-            grid-template-columns: repeat(1, minmax(0, 1fr));
-            gap: 2rem;
-            padding: 1rem;
-        }
-
-        @media (min-width: 640px) {
-            #rag-auto .rag-heading {
-                font-size: 2.25rem;
-                line-height: 2.5rem;
-            }
-
-            #rag-auto .rag-container {
-                grid-template-columns: repeat(2, minmax(0, 1fr));
-            }
-        }
-
-        @media (min-width: 1024px) {
-            #rag-auto .rag-container {
-                grid-template-columns: repeat(3, minmax(0, 1fr));
-            }
-        }
-
-        @media (min-width: 1280px) {
-            #rag-auto .rag-container {
-                grid-template-columns: repeat(4, minmax(0, 1fr));
-            }
-        }
-
-        /* High specificity selectors to override conflicting styles */
-        #rag-auto .rag-header {
-          font-size: 1.875rem !important;
-          line-height: 2.25rem !important;
-          font-weight: 700 !important;
-          letter-spacing: -0.025em !important;
-          padding: 1.25rem !important;
-          padding-top: 0.5rem !important;
-          padding-bottom: 0.5rem !important;
-          text-align: center !important;
-          color: white !important;
-          margin: 0 !important;
-          font-family: ui-sans-serif, system-ui, sans-serif !important;
-        }
 
         @media (min-width: 640px) {
           #rag-auto .rag-header {
@@ -373,3 +308,44 @@ body#rag-auto {
           margin-top: 0 !important;
           font-family: ui-sans-serif, system-ui, sans-serif !important;
         }
+
+/* Styling for offer cards */
+#rag-auto .offer-card {
+  margin-bottom: 1.5rem;
+}
+
+#rag-auto .offer-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+#rag-auto .offer-card h3 {
+  font-family: ui-sans-serif, system-ui, sans-serif !important;
+}
+
+#rag-auto .offer-card p {
+  font-family: ui-sans-serif, system-ui, sans-serif !important;
+}
+
+#rag-auto .offer-card a {
+  text-decoration: none !important;
+}
+
+#rag-auto .offer-card .claim-offer {
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, sans-serif !important;
+}
+
+#rag-auto .rag-header {
+  font-size: 1.875rem !important;
+  line-height: 2.25rem !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.025em !important;
+  padding: 1.25rem !important;
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+  text-align: center !important;
+  color: white !important;
+  margin: 0 !important;
+  font-family: ui-sans-serif, system-ui, sans-serif !important;
+}
