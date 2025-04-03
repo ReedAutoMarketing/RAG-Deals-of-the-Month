@@ -418,6 +418,35 @@ button.claim-offer {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
+#rag-auto .rag-header {
+  font-size: 1.875rem !important;
+  line-height: 2.25rem !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.025em !important;
+  padding: 1.25rem !important;
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+  text-align: center !important;
+  color: white !important;
+  margin: 0 !important;
+  font-family: ui-sans-serif, system-ui, sans-serif !important;
+}
+@media (min-width: 640px) {
+  #rag-auto .rag-header {
+    font-size: 2.25rem !important;
+    line-height: 2.5rem !important;
+  }
+}
+#rag-auto .rag-subheader {
+  text-align: center !important;
+  padding-bottom: 0.5rem !important;
+  margin-bottom: 1.25rem !important;
+  font-size: 1.125rem !important;
+  line-height: 1.75rem !important;
+  color: white !important;
+  margin-top: 0 !important;
+  font-family: ui-sans-serif, system-ui, sans-serif !important;
+}
 @keyframes pulse {
   50% {
     opacity: 0.5;
