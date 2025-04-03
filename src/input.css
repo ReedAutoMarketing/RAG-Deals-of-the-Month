@@ -1,0 +1,277 @@
+@import "tailwindcss";
+
+body#rag-auto {
+    font-size: 16px;
+    overflow-x: hidden;
+  }
+
+  .bg-rag-test {
+    border: 1px solid rgba(0, 0, 0, 0.264);
+  }
+
+  #rag-auto .is-active {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-locale: "en-US";
+    -webkit-text-size-adjust: 100%;
+    --vh: 9.290000000000001px;
+    font-family: "Hyundai Sans Text", "Arial", sans-serif;
+    list-style: none;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    color: #4a4a4a;
+  }
+
+  #rag-auto .is-active button,
+  #rag-auto .header-text-card {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-locale: "en-US";
+    -webkit-text-size-adjust: 100%;
+    --vh: 9.290000000000001px;
+    list-style: none;
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+    appearance: button;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+    overflow: visible;
+    text-transform: none;
+    border: 0;
+    background: 0;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 700;
+
+    border-radius: 0 !important;
+    position: relative;
+  }
+
+  #rag-auto .is-active button::after,
+  #rag-auto .header-text-card::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(-45deg, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 600% 600%;
+    animation: gradient 3s ease infinite;
+  }
+
+
+
+  @keyframes raGradient {
+    0% {
+      background-position: 0% 50%;
+    }
+
+    50% {
+      background-position: 100% 50%;
+    }
+
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+  .bg-rag-test-custom {
+    position: relative;
+    text-align: center;
+  }
+
+  .bg-rag-test-custom::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(-45deg, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 300% 300%;
+    animation: slideInFromLeft 2s ease-out forwards, gradient 10s .5s ease infinite;
+    z-index: -1;
+    border-radius: inherit;
+    /* If your div has border radius, you will need this */
+    margin: -2px;
+    /* This will effectively give you a 2px border */
+  }
+
+  .bg-rag-test-custom .text-black {
+    color: #333;
+    /* Darker text color for better contrast */
+  }
+
+  .text-blackish {
+    color: #333;
+  }
+
+
+  .column-gradient-border {
+    position: relative;
+    padding: 2px;
+    /* this will serve as the border width */
+    z-index: 1;
+  }
+
+  .column-gradient-border::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background:
+      /* top layer: the inner color */
+      linear-gradient(white, white),
+      /* bottom layer: the border gradient */
+      linear-gradient(-45deg, #e73c7e, #23a6d5, #23d5ab);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    background-size: 100% 100%, 600% 600%;
+    /* Apply animation size to the gradient layer */
+    z-index: -1;
+    border-radius: inherit;
+    /* If your div has border radius, you will need this */
+    border: 3px solid transparent;
+    /* match the border width */
+  }
+
+  .column-gradient-border::before {
+    animation: gradient 10s ease infinite;
+    /* Apply animation to the gradient layer */
+  }
+
+  /* Gradient keyframes for the header and button */
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+
+    50% {
+      background-position: 100% 50%;
+    }
+
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  /* Gradient keyframes for the header's bottom border */
+  @keyframes gradient-border {
+    0% {
+      border-image-source: linear-gradient(-45deg, #e73c7e, #23a6d5, #23d5ab);
+    }
+
+    100% {
+      border-image-source: linear-gradient(-45deg, #e73c7e, #23a6d5, #23d5ab);
+    }
+  }
+
+  /* Existing styles for the button and header */
+  #rag-auto .bg-btn-rag {
+    background-color: #00a8e8;
+    color: #fff !important;
+    font-weight: 700;
+    background: linear-gradient(-45deg, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 600% 600%;
+    animation: gradient 10s ease infinite, pulse 3s 3s infinite;
+  }
+
+  /* Adjust animation duration and iteration count */
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+
+    10% {
+      transform: scale(1.05);
+    }
+
+    20% {
+      transform: scale(1);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  #rag-auto .bg-btn-rag {
+    transition: all 0.3s ease-in-out;
+    /* Smooth transition */
+  }
+
+  #rag-auto .bg-btn-rag:hover {
+    transform: scale(1.05);
+    /* Scale Up */
+    box-shadow: 0 0 10px #23a6d5, 0 0 20px #e73c7e, #23a6d5, 0 0 30px #23a6d5;
+    /* Glowing Effect */
+  }
+
+  #rag-auto .bg-btn-rag:active {
+    transform: scale(0.95);
+    /* Push effect on click */
+    box-shadow: none;
+  }
+
+  img.memeLordA {
+    margin-left: 2px;
+  }
+
+  img.memeLordB {
+    margin-left: 2px;
+  }
+
+  @media (min-width: 960px) {
+    .spacer {
+      height: 44px;
+    }
+  }
+
+  .spacer {
+    height: 40px;
+  }
+
+  body#rag-auto {
+    overflow-x: hidden;
+  }
+
+  .jv-fix {
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+  .modal {
+    transition: opacity 0.25s ease;
+  }
+
+  .modal-active {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .modal-z {
+    z-index: 1000;
+  }
