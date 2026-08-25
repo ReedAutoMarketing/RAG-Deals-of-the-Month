@@ -1,277 +1,375 @@
 *,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/*! tailwindcss v3.4.18 | MIT License | https://tailwindcss.com*/*,:after,:before{box-sizing:border-box;border:0 solid #e5e7eb}:after,:before{--tw-content:""}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;-o-tab-size:4;tab-size:4;font-family:ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{opacity:1;color:#9ca3af}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.ca-pointer-events-none{pointer-events:none}.ca-absolute{position:absolute}.ca-relative{position:relative}.ca-left-0{left:0}.ca-right-3{right:.75rem}.ca-top-0{top:0}.ca-top-3{top:.75rem}.ca-z-10{z-index:10}.ca-z-20{z-index:20}.ca-mb-0\.5{margin-bottom:.125rem}.ca-mb-5{margin-bottom:1.25rem}.ca-ml-1{margin-left:.25rem}.ca-ml-2{margin-left:.5rem}.ca-mt-1{margin-top:.25rem}.ca-mt-1\.5{margin-top:.375rem}.ca-mt-2{margin-top:.5rem}.ca-mt-auto{margin-top:auto}.ca-inline-block{display:inline-block}.ca-flex{display:flex}.ca-inline-flex{display:inline-flex}.ca-grid{display:grid}.ca-aspect-video{aspect-ratio:16/9}.ca-h-full{height:100%}.ca-w-fit{width:-moz-fit-content;width:fit-content}.ca-w-full{width:100%}.ca-flex-1{flex:1 1 0%}.ca-flex-grow{flex-grow:1}.ca-cursor-pointer{cursor:pointer}.ca-grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}.ca-flex-col{flex-direction:column}.ca-items-center{align-items:center}.ca-justify-center{justify-content:center}.ca-gap-4{gap:1rem}.ca-gap-8{gap:2rem}.ca-space-y-4>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem*var(--tw-space-y-reverse))}.ca-overflow-hidden{overflow:hidden}.ca-rounded-full{border-radius:9999px}.ca-rounded-lg{border-radius:.5rem}.ca-rounded-md{border-radius:.375rem}.ca-rounded-xl{border-radius:.75rem}.ca-border{border-width:1px}.ca-border-gray-100{--tw-border-opacity:1;border-color:rgb(243 244 246/var(--tw-border-opacity,1))}.ca-border-gray-200{--tw-border-opacity:1;border-color:rgb(229 231 235/var(--tw-border-opacity,1))}.ca-bg-blue-600{--tw-bg-opacity:1;background-color:rgb(37 99 235/var(--tw-bg-opacity,1))}.ca-bg-gray-100{--tw-bg-opacity:1;background-color:rgb(243 244 246/var(--tw-bg-opacity,1))}.ca-bg-gray-50{--tw-bg-opacity:1;background-color:rgb(249 250 251/var(--tw-bg-opacity,1))}.ca-bg-green-100{--tw-bg-opacity:1;background-color:rgb(220 252 231/var(--tw-bg-opacity,1))}.ca-bg-green-600{--tw-bg-opacity:1;background-color:rgb(22 163 74/var(--tw-bg-opacity,1))}.ca-bg-transparent{background-color:transparent}.ca-bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity,1))}.ca-object-cover{-o-object-fit:cover;object-fit:cover}.ca-p-4{padding:1rem}.ca-p-5{padding:1.25rem}.ca-px-2\.5{padding-left:.625rem;padding-right:.625rem}.ca-px-3{padding-left:.75rem;padding-right:.75rem}.ca-px-4{padding-left:1rem;padding-right:1rem}.ca-px-5{padding-left:1.25rem;padding-right:1.25rem}.ca-px-6{padding-left:1.5rem;padding-right:1.5rem}.ca-py-1{padding-top:.25rem;padding-bottom:.25rem}.ca-py-1\.5{padding-top:.375rem;padding-bottom:.375rem}.ca-py-2{padding-top:.5rem;padding-bottom:.5rem}.ca-py-2\.5{padding-top:.625rem;padding-bottom:.625rem}.ca-py-3{padding-top:.75rem;padding-bottom:.75rem}.ca-pb-2{padding-bottom:.5rem}.ca-pb-4{padding-bottom:1rem}.ca-pt-1{padding-top:.25rem}.ca-pt-2{padding-top:.5rem}.ca-text-left{text-align:left}.ca-text-center{text-align:center}.ca-text-right{text-align:right}.ca-font-sans{font-family:ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji}.ca-text-2xl{font-size:1.5rem;line-height:2rem}.ca-text-3xl{font-size:1.875rem;line-height:2.25rem}.ca-text-4xl{font-size:2.25rem;line-height:2.5rem}.ca-text-base{font-size:1rem;line-height:1.5rem}.ca-text-lg{font-size:1.125rem;line-height:1.75rem}.ca-text-sm{font-size:.875rem;line-height:1.25rem}.ca-text-xl{font-size:1.25rem;line-height:1.75rem}.ca-text-xs{font-size:.75rem;line-height:1rem}.ca-font-bold{font-weight:700}.ca-font-medium{font-weight:500}.ca-font-semibold{font-weight:600}.ca-uppercase{text-transform:uppercase}.ca-capitalize{text-transform:capitalize}.ca-leading-8{line-height:2rem}.ca-leading-tight{line-height:1.25}.ca-tracking-tight{letter-spacing:-.025em}.ca-tracking-wide{letter-spacing:.025em}.ca-text-blue-600{--tw-text-opacity:1;color:rgb(37 99 235/var(--tw-text-opacity,1))}.ca-text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity,1))}.ca-text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99/var(--tw-text-opacity,1))}.ca-text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81/var(--tw-text-opacity,1))}.ca-text-gray-800{--tw-text-opacity:1;color:rgb(31 41 55/var(--tw-text-opacity,1))}.ca-text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39/var(--tw-text-opacity,1))}.ca-text-green-600{--tw-text-opacity:1;color:rgb(22 163 74/var(--tw-text-opacity,1))}.ca-text-green-700{--tw-text-opacity:1;color:rgb(21 128 61/var(--tw-text-opacity,1))}.ca-text-green-800{--tw-text-opacity:1;color:rgb(22 101 52/var(--tw-text-opacity,1))}.ca-text-slate-900{--tw-text-opacity:1;color:rgb(15 23 42/var(--tw-text-opacity,1))}.ca-text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity,1))}.ca-opacity-0{opacity:0}.ca-opacity-100{opacity:1}.ca-shadow-sm{--tw-shadow:0 1px 2px 0 rgba(0,0,0,.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.ca-transition-all{transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.ca-transition-colors{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.ca-transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.ca-transition-transform{transition-property:transform;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.ca-duration-300{transition-duration:.3s}.ca-duration-500{transition-duration:.5s}body#ca-auto{font-size:16px;overflow-x:hidden}.ca-bg-ca-custom{position:relative;text-align:center}.ca-bg-ca-custom:before{content:"";position:absolute;top:0;right:0;bottom:0;left:0;background:linear-gradient(-45deg,#e73c7e,#23a6d5,#23d5ab);background-size:300% 300%;animation:slideInFromLeft 2s ease-out forwards,gradient 10s ease .5s infinite;z-index:-1;border-radius:inherit;margin:-2px}@keyframes gradient{0%{background-position:0 50%}50%{background-position:100% 50%}to{background-position:0 50%}}@keyframes slideInFromLeft{0%{transform:translateX(-100%);opacity:0}to{transform:translateX(0);opacity:1}}@media (min-width:960px){.ca-spacer{height:44px}}.ca-spacer{height:40px}#ca-auto.ca-body{font-family:ui-sans-serif,system-ui,sans-serif;background-color:#f3f4f6;margin:0;padding:0}#ca-auto .ca-header{font-size:1.875rem!important;line-height:2.25rem!important;font-weight:700!important;letter-spacing:-.025em!important;padding:.5rem 1.25rem!important;text-align:center!important;color:#fff!important;margin:0!important;font-family:ui-sans-serif,system-ui,sans-serif!important}@media (min-width:640px){#ca-auto .ca-header{font-size:2.25rem!important;line-height:2.5rem!important}}#ca-auto .ca-subheader{text-align:center!important;padding-bottom:.5rem!important;margin-bottom:1.25rem!important;font-size:1.125rem!important;line-height:1.75rem!important;color:#fff!important;margin-top:0!important;font-family:ui-sans-serif,system-ui,sans-serif!important}#ca-auto .ca-video-card{margin-bottom:1.5rem}#ca-auto .ca-video-card h3,#ca-auto .ca-video-card p{font-family:ui-sans-serif,system-ui,sans-serif!important}#ca-auto .ca-video-card a{text-decoration:none!important}#ca-auto .ca-video-container{position:relative;width:100%;padding-bottom:56.25%;overflow:hidden;background-color:#000;border-radius:.75rem .75rem 0 0}#ca-auto .ca-video-container iframe{position:absolute;top:0;left:0;width:100%;height:100%;border:none}#ca-auto .ca-video-overlay{position:absolute;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.3);opacity:1;transition:opacity .3s ease;z-index:10;display:flex;align-items:center;justify-content:center;cursor:pointer}#ca-auto .ca-video-overlay:hover{background:rgba(0,0,0,.4)}#ca-auto .ca-play-icon{width:80px;height:80px;background:hsla(0,0%,100%,.95);border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 12px rgba(0,0,0,.3)}#ca-auto .ca-play-icon svg{width:32px;height:32px;fill:#1a1a1a;margin-left:4px}#ca-auto .ca-explore-offer{background-color:#00a8e8;color:#fff!important;font-weight:700;cursor:pointer;font-family:ui-sans-serif,system-ui,sans-serif!important;transition:all .3s ease}#ca-auto .ca-explore-offer:hover{transform:translateY(-2px);box-shadow:0 4px 12px rgba(0,168,232,.3)}#ca-auto .ca-explore-offer:active{transform:translateY(0)}#ca-auto .ca-video-badge{display:inline-block;font-size:.75rem;font-weight:500;padding:.25rem .625rem;border-radius:9999px;background-color:#dcfce7;color:#166534;box-shadow:0 1px 2px 0 rgba(0,0,0,.05)}.hover\:ca-scale-105:hover{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:ca-bg-blue-700:hover{--tw-bg-opacity:1;background-color:rgb(29 78 216/var(--tw-bg-opacity,1))}.hover\:ca-bg-green-700:hover{--tw-bg-opacity:1;background-color:rgb(21 128 61/var(--tw-bg-opacity,1))}.hover\:ca-text-blue-800:hover{--tw-text-opacity:1;color:rgb(30 64 175/var(--tw-text-opacity,1))}.hover\:ca-text-green-800:hover{--tw-text-opacity:1;color:rgb(22 101 52/var(--tw-text-opacity,1))}.hover\:ca-shadow-lg:hover{--tw-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -4px var(--tw-shadow-color)}.hover\:ca-shadow-lg:hover,.hover\:ca-shadow-md:hover{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.hover\:ca-shadow-md:hover{--tw-shadow:0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color),0 2px 4px -2px var(--tw-shadow-color)}@media (min-width:640px){.sm\:ca-grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.sm\:ca-px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\:ca-py-3{padding-top:.75rem;padding-bottom:.75rem}.sm\:ca-text-4xl{font-size:2.25rem;line-height:2.5rem}}@media (min-width:768px){.md\:ca-grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}}@media (min-width:1024px){.lg\:ca-grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}}@media (min-width:1280px){.xl\:ca-grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}}
 /* ---- Featured Video Offers: Shorts rail + landscape grid ---- */
 
+/* Featured Video Offers — Shorts band + landscape band.
+ *
+ * The two bands hold different aspect ratios, so they only read as one page if
+ * they share a grid. Both tracks are full-width CSS grids with the same gutter,
+ * which puts their left AND right edges on the same lines; the Shorts band just
+ * runs more (narrower) columns. Cards stretch to their row, so every CTA in a
+ * row sits on the same baseline.
+ */
+
 #ca-auto #videos-container {
-    display: flex !important;
-    flex-direction: column;
-    gap: 2rem;
-    padding: 0 1rem 2rem;
+  --ca-gap: 1.25rem;
+  --ca-radius: 14px;
+  --ca-surface: #ffffff;
+  --ca-border: #e6e8ec;
+  --ca-ink: #0f172a;
+  --ca-ink-2: #475569;
+  --ca-ink-3: #64748b;
+  --ca-offer: #15803d;
+
+  display: flex !important;
+  flex-direction: column;
+  gap: 2.25rem;
+  /* Centered and bounded: a dealer template can be 1600px+, and an unbounded
+     grid stretches the cards into shapes the artwork was never cut for. */
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 1rem 2.5rem;
 }
 
-#ca-auto .ca-section-label {
-    margin: 0 0 0.75rem;
-    font-size: 0.8125rem !important;
-    font-weight: 600;
-    letter-spacing: 0.02em;
-    color: #475569 !important;
-    font-family: ui-sans-serif, system-ui, sans-serif !important;
+/* A hairline between bands — the two aspect ratios then read as deliberate
+   sections rather than one grid that lost its rhythm halfway down. */
+#ca-auto #videos-container > section + section {
+  border-top: 1px solid var(--ca-border);
+  padding-top: 2.25rem;
 }
+
+/* ---- Section heading ---------------------------------------------------- */
+
+/* Was 13px — the same size as the card description, so a heading and a caption
+   were competing at one weight. Larger and darker gives the band a real head. */
+#ca-auto .ca-section-label {
+  margin: 0 0 1rem;
+  font-size: 0.9375rem !important;
+  font-weight: 600 !important;
+  line-height: 1.3 !important;
+  letter-spacing: -0.01em !important;
+  color: var(--ca-ink) !important;
+  font-family: ui-sans-serif, system-ui, sans-serif !important;
+}
+
+/* ---- Tracks ------------------------------------------------------------- */
 
 #ca-auto .ca-shorts-track,
 #ca-auto .ca-landscape-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.25rem;
+  display: grid;
+  gap: var(--ca-gap);
+  align-items: stretch;
 }
 
+/* `auto-fill`, never `auto-fit`: with two Shorts in a six-track row, auto-fit
+   would stretch each to ~590px, and a 9:16 frame that wide is over 1000px tall.
+   auto-fill holds the column width so a portrait card stays a portrait card. */
 #ca-auto .ca-shorts-track {
-    justify-content: flex-start;
+  grid-template-columns: repeat(auto-fill, minmax(148px, 1fr));
 }
 
+@media (min-width: 640px) {
+  #ca-auto .ca-shorts-track {
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  }
+}
+
+/* `auto-fit` here, the opposite of the Shorts track, and for the same reason:
+   a 16:9 card that grows stays a sensible shape, so two videos should share the
+   row rather than sit in two of three tracks leaving a third of the band empty.
+   `min(100%, 300px)` keeps the min track from overflowing a narrow phone. */
+#ca-auto .ca-landscape-grid {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+}
+
+/* A lone Short would otherwise sit as one narrow column against a wide empty
+   row. Turn it on its side instead: poster left, copy right.
+   
+   It runs the SAME track definition as the landscape band and spans two of
+   them, so its right edge lands exactly on a grid line rather than at some
+   arbitrary card width. Spanning the whole band instead just moves the problem:
+   the copy then trails a few hundred pixels of dead white. */
 #ca-auto .ca-shorts-track--single {
-    display: block;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
 }
 
 #ca-auto .ca-shorts-track--single .ca-video-wrapper {
-    flex: none;
-    width: 100%;
-    max-width: 760px;
-}
-
-#ca-auto .ca-video-aside {
-    display: flex;
-    flex-direction: column;
-    flex: 1 1 auto;
+  width: 100%;
 }
 
 @media (min-width: 640px) {
-    #ca-auto .ca-shorts-track--single .ca-video-card {
-        display: grid;
-        grid-template-columns: minmax(180px, 220px) minmax(0, 1fr);
-        align-items: stretch;
-    }
+  /* Only from the breakpoint where the track definition guarantees a second
+     column — `span 2` in a one-column grid would invent an implicit one. */
+  #ca-auto .ca-shorts-track--single .ca-video-wrapper {
+    grid-column: span 2;
+  }
 
-    #ca-auto .ca-shorts-track--single .ca-video-aside {
-        justify-content: center;
-        gap: 0.9rem;
-        padding: 1.15rem 1.35rem;
-    }
-
-    #ca-auto .ca-shorts-track--single .ca-video-copy {
-        padding: 0;
-        flex: 0 0 auto;
-    }
-
-    #ca-auto .ca-shorts-track--single .ca-video-card h3 {
-        font-size: 1rem !important;
-        -webkit-line-clamp: 3;
-    }
-
-    #ca-auto .ca-shorts-track--single .ca-video-desc {
-        -webkit-line-clamp: 3;
-    }
-
-    #ca-auto .ca-shorts-track--single .ca-explore-offer {
-        width: auto;
-        max-width: 100%;
-        margin: 0;
-        align-self: flex-start;
-        padding: 0.65rem 1.15rem;
-    }
-}
-
-#ca-auto .ca-landscape-grid {
+  #ca-auto .ca-shorts-track--single .ca-video-card {
     display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.25rem;
+    /* Wide enough that the poster anchors the card. Below ~220px the 9:16 frame
+       reads as a thumbnail stranded in a field of white. */
+    grid-template-columns: minmax(220px, 260px) minmax(0, 1fr);
+    align-items: stretch;
+  }
+
+  #ca-auto .ca-shorts-track--single .ca-video-aside {
+    justify-content: center;
+    gap: 0.85rem;
+    padding: 1.25rem 1.4rem;
+  }
+
+  /* Cap the measure — copy running the full width of the band is unreadable no
+     matter how well it is set — but not so tightly that the card looks unfilled. */
+  #ca-auto .ca-shorts-track--single .ca-video-copy {
+    padding: 0;
+    flex: 0 0 auto;
+    max-width: 72ch;
+  }
+
+  /* A 9:16 poster makes this card tall, and card-scale type stranded in that
+     much white reads as a layout fault rather than as breathing room. The hero
+     is the one place the copy steps up a size to hold its half of the card. */
+  #ca-auto .ca-shorts-track--single .ca-video-card h3 {
+    font-size: 1.125rem !important;
+    line-height: 1.3 !important;
+    -webkit-line-clamp: 3;
+  }
+
+  #ca-auto .ca-shorts-track--single .ca-video-offer {
+    font-size: 0.9375rem !important;
+  }
+
+  #ca-auto .ca-shorts-track--single .ca-video-desc {
+    font-size: 0.875rem !important;
+    line-height: 1.5 !important;
+    -webkit-line-clamp: 3;
+  }
+
+  #ca-auto .ca-shorts-track--single .ca-explore-offer {
+    width: auto;
+    max-width: 100%;
+    margin: 0;
+    align-self: flex-start;
+    padding: 0.7rem 1.5rem;
+    font-size: 0.875rem !important;
+  }
 }
 
-@media (min-width: 640px) {
-    #ca-auto .ca-landscape-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-}
-
-@media (min-width: 1024px) {
-    #ca-auto .ca-landscape-grid {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
-}
+/* ---- Card --------------------------------------------------------------- */
 
 #ca-auto .ca-video-wrapper {
-    height: 100%;
-    min-width: 0;
-}
-
-#ca-auto .ca-shorts-track .ca-video-wrapper {
-    flex: 0 0 min(100%, 260px);
-    width: min(100%, 260px);
-}
-
-#ca-auto .ca-shorts-track.ca-shorts-track--single .ca-video-wrapper {
-    flex: none;
-    width: 100%;
-    max-width: 760px;
+  height: 100%;
+  min-width: 0;
 }
 
 #ca-auto .ca-video-card {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 0;
-    background: #fff;
-    border: 1px solid #e5e7eb;
-    border-radius: 1rem;
-    box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
-    overflow: hidden;
-    transition:
-        box-shadow 0.2s ease,
-        transform 0.2s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+  background: var(--ca-surface);
+  border: 1px solid var(--ca-border);
+  border-radius: var(--ca-radius);
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+  overflow: hidden;
+  transition:
+    box-shadow 0.18s ease,
+    border-color 0.18s ease,
+    transform 0.18s ease;
 }
 
 #ca-auto .ca-video-card:hover {
-    box-shadow: 0 10px 24px -12px rgba(15, 23, 42, 0.18);
-    transform: translateY(-1px);
+  border-color: #d5d9e0;
+  box-shadow: 0 12px 28px -14px rgba(15, 23, 42, 0.22);
+  transform: translateY(-2px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #ca-auto .ca-video-card,
+  #ca-auto .ca-video-card:hover {
+    transition: none;
+    transform: none;
+  }
 }
 
 #ca-auto .ca-video-card h3,
 #ca-auto .ca-video-card p {
-    font-family: ui-sans-serif, system-ui, sans-serif !important;
+  font-family: ui-sans-serif, system-ui, sans-serif !important;
 }
 
+/* ---- Media -------------------------------------------------------------- */
+
 #ca-auto .ca-video-media {
-    position: relative;
+  position: relative;
+  /* Neutral matte behind both ratios, so a letterboxed frame reads as framing
+     rather than as a gap the layout failed to fill. */
+  background: #0b0b0b;
 }
 
 #ca-auto .ca-video-media .ca-video-badge {
-    position: absolute;
-    top: 0.75rem;
-    right: 0.75rem;
-    z-index: 20;
+  position: absolute;
+  top: 0.6rem;
+  right: 0.6rem;
+  z-index: 20;
 }
 
 #ca-auto .ca-video-container {
-    border-radius: 0;
+  border-radius: 0;
 }
 
 #ca-auto .ca-video-container.ca-video-container--short {
-    padding-bottom: 177.78%;
-    width: 100%;
-    max-height: none;
-    aspect-ratio: auto;
-    margin: 0;
-    background: #0b0b0b;
+  padding-bottom: 177.78%;
+  width: 100%;
+  max-height: none;
+  aspect-ratio: auto;
+  margin: 0;
+  background: #0b0b0b;
 }
 
 #ca-auto .ca-video-badge {
-    font-size: 0.6875rem;
-    font-weight: 600;
-    letter-spacing: 0.02em;
-    padding: 0.2rem 0.55rem;
-    background: rgba(255, 255, 255, 0.94);
-    color: #334155;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+  font-size: 0.6875rem !important;
+  font-weight: 600 !important;
+  line-height: 1 !important;
+  letter-spacing: 0.01em;
+  padding: 0.28rem 0.5rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.94);
+  color: #334155;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
 }
 
 #ca-auto .ca-video-badge.ca-video-badge--short {
-    background: #0f172a;
-    color: #fff;
+  background: rgba(15, 23, 42, 0.9);
+  color: #fff;
+}
+
+/* ---- Copy --------------------------------------------------------------- */
+
+#ca-auto .ca-video-aside {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  min-width: 0;
 }
 
 #ca-auto .ca-video-copy {
-    display: flex;
-    flex-direction: column;
-    gap: 0.4rem;
-    padding: 0.9rem 1rem 0.35rem;
-    flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 0.85rem 0.9rem 0.5rem;
+  flex: 1 1 auto;
 }
 
 #ca-auto .ca-video-card h3 {
-    margin: 0;
-    font-size: 0.9375rem !important;
-    font-weight: 600 !important;
-    line-height: 1.35 !important;
-    letter-spacing: -0.02em !important;
-    color: #0f172a !important;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+  margin: 0;
+  font-size: 0.9375rem !important;
+  font-weight: 600 !important;
+  line-height: 1.35 !important;
+  letter-spacing: -0.015em !important;
+  color: var(--ca-ink) !important;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 #ca-auto .ca-video-offer {
-    margin: 0;
-    font-size: 0.8125rem !important;
-    font-weight: 600 !important;
-    line-height: 1.35 !important;
-    color: #15803d !important;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+  margin: 0;
+  font-size: 0.8125rem !important;
+  font-weight: 600 !important;
+  line-height: 1.35 !important;
+  color: var(--ca-offer) !important;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 #ca-auto .ca-video-desc {
-    margin: 0;
-    font-size: 0.8125rem !important;
-    font-weight: 400 !important;
-    line-height: 1.4 !important;
-    color: #64748b !important;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+  margin: 0;
+  font-size: 0.8125rem !important;
+  font-weight: 400 !important;
+  line-height: 1.45 !important;
+  color: var(--ca-ink-3) !important;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
+/* Narrow Shorts columns cannot carry three stacked paragraphs without turning
+   into a wall of clipped text — the poster is the story there. */
+@media (max-width: 639px) {
+  #ca-auto .ca-shorts-track:not(.ca-shorts-track--single) .ca-video-desc {
+    display: none;
+  }
+}
+
+/* ---- CTA ---------------------------------------------------------------- */
+
+/* `margin-top: auto` pins the button to the bottom of the card, so a one-line
+   title and a two-line title still line their buttons up across a row. */
 #ca-auto .ca-video-card .ca-explore-offer {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: calc(100% - 2rem);
-    margin: 0.5rem 1rem 1rem;
-    padding: 0.65rem 0.9rem;
-    border-radius: 0.65rem;
-    font-size: 0.8125rem !important;
-    font-weight: 600 !important;
-    letter-spacing: 0.01em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% - 1.8rem);
+  margin: 0.6rem 0.9rem 0.9rem;
+  margin-top: auto;
+  padding: 0.6rem 0.85rem;
+  border-radius: 0.6rem;
+  font-size: 0.8125rem !important;
+  font-weight: 600 !important;
+  line-height: 1.2 !important;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+
+#ca-auto .ca-video-card .ca-explore-offer:focus-visible {
+  outline: 2px solid var(--ca-ink);
+  outline-offset: 2px;
 }
 
 @media (min-width: 640px) {
-    #ca-auto .ca-shorts-track--single .ca-video-card .ca-explore-offer {
-        width: auto;
-        max-width: 100%;
-        margin: 0;
-        align-self: flex-start;
-        padding: 0.65rem 1.15rem;
-    }
+  #ca-auto .ca-shorts-track--single .ca-video-card .ca-explore-offer {
+    width: auto;
+    max-width: 100%;
+    margin: 0;
+    align-self: flex-start;
+    padding: 0.65rem 1.2rem;
+  }
 }
 
+/* ---- Play affordance ---------------------------------------------------- */
+
 #ca-auto .ca-shorts-track .ca-play-icon {
-    width: 56px;
-    height: 56px;
+  width: 52px;
+  height: 52px;
 }
 
 #ca-auto .ca-shorts-track .ca-play-icon svg {
-    width: 22px;
-    height: 22px;
+  width: 20px;
+  height: 20px;
 }
 
+/* ---- Page header -------------------------------------------------------- */
+
 #ca-auto .ca-header {
-    font-size: 1.375rem !important;
-    line-height: 1.25 !important;
-    letter-spacing: -0.03em !important;
-    font-weight: 600 !important;
+  font-size: 1.625rem !important;
+  line-height: 1.2 !important;
+  letter-spacing: -0.025em !important;
+  font-weight: 600 !important;
 }
 
 @media (min-width: 640px) {
-    #ca-auto .ca-header {
-        font-size: 1.625rem !important;
-    }
+  #ca-auto .ca-header {
+    font-size: 1.875rem !important;
+  }
 }
 
 #ca-auto .ca-subheader {
-    font-size: 0.9375rem !important;
-    line-height: 1.45 !important;
-    opacity: 0.92;
-    margin-bottom: 0.75rem !important;
+  font-size: 0.9375rem !important;
+  line-height: 1.5 !important;
+  opacity: 0.9;
+  margin-bottom: 0.75rem !important;
 }
