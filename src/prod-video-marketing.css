@@ -118,12 +118,13 @@
     padding: 1.25rem 1.4rem;
   }
 
-  /* Cap the measure — copy running the full width of the band is unreadable no
-     matter how well it is set — but not so tightly that the card looks unfilled. */
+  /* No measure cap here. auto-fit collapses the empty third track, so the hero
+     spans the full band; a cap then leaves a visible slab of white to the right
+     of the text rather than a tidy column. The line clamps below bound the block
+     instead. */
   #ca-auto .ca-shorts-track--single .ca-video-copy {
     padding: 0;
     flex: 0 0 auto;
-    max-width: 72ch;
   }
 
   /* A 9:16 poster makes this card tall, and card-scale type stranded in that
