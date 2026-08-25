@@ -83,14 +83,16 @@
 
 /* A lone Short would otherwise sit as one narrow column against a wide empty
    row. Turn it on its side instead: poster left, copy right.
-   
-   It runs the SAME track definition as the landscape band and spans two of
-   them, so its right edge lands exactly on a grid line rather than at some
-   arbitrary card width. Spanning the whole band instead just moves the problem:
-   the copy then trails a few hundred pixels of dead white. */
+
+   Same track sizing as the landscape band so the columns line up, but
+   `auto-fill` rather than `auto-fit`. auto-fit collapses the two tracks this
+   card does not occupy, which silently stretches a `span 2` card across the
+   whole band; the card then carries a 260px poster and three short lines of
+   copy across ~1200px and strands a few hundred pixels of white. auto-fill
+   keeps those tracks at width, so the card ends on a real grid line. */
 #ca-auto .ca-shorts-track--single {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
 }
 
 #ca-auto .ca-shorts-track--single .ca-video-wrapper {
@@ -118,10 +120,8 @@
     padding: 1.25rem 1.4rem;
   }
 
-  /* No measure cap here. auto-fit collapses the empty third track, so the hero
-     spans the full band; a cap then leaves a visible slab of white to the right
-     of the text rather than a tidy column. The line clamps below bound the block
-     instead. */
+  /* No measure cap needed: the card spans two tracks, so the copy column is
+     already near a readable measure. The line clamps below bound the block. */
   #ca-auto .ca-shorts-track--single .ca-video-copy {
     padding: 0;
     flex: 0 0 auto;
