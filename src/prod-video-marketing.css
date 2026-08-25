@@ -193,9 +193,15 @@
   }
 }
 
+/* The Dealer Inspire theme sets a bare `h3 { text-transform: uppercase }`,
+   which is harmless on its own short nav headings but mangles sheet copy:
+   "Grand Cherokee 4xe ... $369/mo!" renders as "4XE ... $369/MO!". Card text
+   is authored in the Google Sheet, so it renders with the casing it was
+   written in. */
 #ca-auto .ca-video-card h3,
 #ca-auto .ca-video-card p {
   font-family: ui-sans-serif, system-ui, sans-serif !important;
+  text-transform: none !important;
 }
 
 /* ---- Media -------------------------------------------------------------- */
